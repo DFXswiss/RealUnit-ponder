@@ -1,0 +1,3242 @@
+{
+  "maxGapSize": 10000,
+  "ranges": [
+    {
+      "startBlock": 14829888,
+      "endBlock": 14829888,
+      "specificBlocks": [
+        14829888
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 14908202,
+      "endBlock": 14908202,
+      "specificBlocks": [
+        14908202
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 14925782,
+      "endBlock": 14926725,
+      "specificBlocks": [
+        14925782,
+        14926355,
+        14926725
+      ],
+      "totalBlocks": 944,
+      "efficiencyRatio": 0.0031779661016949155
+    },
+    {
+      "startBlock": 14948718,
+      "endBlock": 14948718,
+      "specificBlocks": [
+        14948718
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 14956256,
+      "endBlock": 14957514,
+      "specificBlocks": [
+        14956256,
+        14956981,
+        14957297,
+        14957514
+      ],
+      "totalBlocks": 1259,
+      "efficiencyRatio": 0.003177124702144559
+    },
+    {
+      "startBlock": 14967008,
+      "endBlock": 14967553,
+      "specificBlocks": [
+        14967008,
+        14967022,
+        14967553
+      ],
+      "totalBlocks": 546,
+      "efficiencyRatio": 0.005494505494505495
+    },
+    {
+      "startBlock": 14973480,
+      "endBlock": 14977848,
+      "specificBlocks": [
+        14973480,
+        14973760,
+        14973832,
+        14974027,
+        14977848
+      ],
+      "totalBlocks": 4369,
+      "efficiencyRatio": 0.0011444266422522317
+    },
+    {
+      "startBlock": 14997152,
+      "endBlock": 14997152,
+      "specificBlocks": [
+        14997152
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 15034846,
+      "endBlock": 15035202,
+      "specificBlocks": [
+        15034846,
+        15034891,
+        15035202
+      ],
+      "totalBlocks": 357,
+      "efficiencyRatio": 0.008403361344537815
+    },
+    {
+      "startBlock": 15043994,
+      "endBlock": 15043994,
+      "specificBlocks": [
+        15043994
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 15074868,
+      "endBlock": 15081636,
+      "specificBlocks": [
+        15074868,
+        15075241,
+        15076656,
+        15081634,
+        15081636
+      ],
+      "totalBlocks": 6769,
+      "efficiencyRatio": 0.0007386615452799527
+    },
+    {
+      "startBlock": 15095889,
+      "endBlock": 15096001,
+      "specificBlocks": [
+        15095889,
+        15096001
+      ],
+      "totalBlocks": 113,
+      "efficiencyRatio": 0.017699115044247787
+    },
+    {
+      "startBlock": 15120204,
+      "endBlock": 15128147,
+      "specificBlocks": [
+        15120204,
+        15123162,
+        15126463,
+        15126784,
+        15128147
+      ],
+      "totalBlocks": 7944,
+      "efficiencyRatio": 0.0006294058408862034
+    },
+    {
+      "startBlock": 15167221,
+      "endBlock": 15167221,
+      "specificBlocks": [
+        15167221
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 15263894,
+      "endBlock": 15263894,
+      "specificBlocks": [
+        15263894
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 15276744,
+      "endBlock": 15276744,
+      "specificBlocks": [
+        15276744
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 15388904,
+      "endBlock": 15388904,
+      "specificBlocks": [
+        15388904
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 15416625,
+      "endBlock": 15416625,
+      "specificBlocks": [
+        15416625
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 15445888,
+      "endBlock": 15445888,
+      "specificBlocks": [
+        15445888
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 15451662,
+      "endBlock": 15451662,
+      "specificBlocks": [
+        15451662
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 15459396,
+      "endBlock": 15460906,
+      "specificBlocks": [
+        15459396,
+        15459753,
+        15460560,
+        15460612,
+        15460906
+      ],
+      "totalBlocks": 1511,
+      "efficiencyRatio": 0.0033090668431502318
+    },
+    {
+      "startBlock": 15476496,
+      "endBlock": 15483097,
+      "specificBlocks": [
+        15476496,
+        15477483,
+        15480228,
+        15483097
+      ],
+      "totalBlocks": 6602,
+      "efficiencyRatio": 0.0006058770069675856
+    },
+    {
+      "startBlock": 15497634,
+      "endBlock": 15497634,
+      "specificBlocks": [
+        15497634
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 15532914,
+      "endBlock": 15532914,
+      "specificBlocks": [
+        15532914
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 15580439,
+      "endBlock": 15581028,
+      "specificBlocks": [
+        15580439,
+        15581028
+      ],
+      "totalBlocks": 590,
+      "efficiencyRatio": 0.003389830508474576
+    },
+    {
+      "startBlock": 15624795,
+      "endBlock": 15624795,
+      "specificBlocks": [
+        15624795
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 15673477,
+      "endBlock": 15680549,
+      "specificBlocks": [
+        15673477,
+        15676045,
+        15680549
+      ],
+      "totalBlocks": 7073,
+      "efficiencyRatio": 0.00042414816909373674
+    },
+    {
+      "startBlock": 15711121,
+      "endBlock": 15711121,
+      "specificBlocks": [
+        15711121
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 15717193,
+      "endBlock": 15717824,
+      "specificBlocks": [
+        15717193,
+        15717824
+      ],
+      "totalBlocks": 632,
+      "efficiencyRatio": 0.0031645569620253164
+    },
+    {
+      "startBlock": 15762266,
+      "endBlock": 15767485,
+      "specificBlocks": [
+        15762266,
+        15767044,
+        15767081,
+        15767090,
+        15767104,
+        15767485
+      ],
+      "totalBlocks": 5220,
+      "efficiencyRatio": 0.0011494252873563218
+    },
+    {
+      "startBlock": 15783901,
+      "endBlock": 15787850,
+      "specificBlocks": [
+        15783901,
+        15787023,
+        15787850
+      ],
+      "totalBlocks": 3950,
+      "efficiencyRatio": 0.0007594936708860759
+    },
+    {
+      "startBlock": 15802710,
+      "endBlock": 15802710,
+      "specificBlocks": [
+        15802710
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 15810549,
+      "endBlock": 15810557,
+      "specificBlocks": [
+        15810549,
+        15810557
+      ],
+      "totalBlocks": 9,
+      "efficiencyRatio": 0.2222222222222222
+    },
+    {
+      "startBlock": 15861030,
+      "endBlock": 15861030,
+      "specificBlocks": [
+        15861030
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 15881001,
+      "endBlock": 15881005,
+      "specificBlocks": [
+        15881001,
+        15881005
+      ],
+      "totalBlocks": 5,
+      "efficiencyRatio": 0.4
+    },
+    {
+      "startBlock": 15912049,
+      "endBlock": 15912049,
+      "specificBlocks": [
+        15912049
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 15924873,
+      "endBlock": 15928195,
+      "specificBlocks": [
+        15924873,
+        15925507,
+        15928195
+      ],
+      "totalBlocks": 3323,
+      "efficiencyRatio": 0.0009027986758952753
+    },
+    {
+      "startBlock": 15968329,
+      "endBlock": 15968329,
+      "specificBlocks": [
+        15968329
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 15983693,
+      "endBlock": 15983693,
+      "specificBlocks": [
+        15983693
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 16026446,
+      "endBlock": 16031320,
+      "specificBlocks": [
+        16026446,
+        16026456,
+        16026522,
+        16031320
+      ],
+      "totalBlocks": 4875,
+      "efficiencyRatio": 0.0008205128205128205
+    },
+    {
+      "startBlock": 16039329,
+      "endBlock": 16039329,
+      "specificBlocks": [
+        16039329
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 16055557,
+      "endBlock": 16055557,
+      "specificBlocks": [
+        16055557
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 16067640,
+      "endBlock": 16067640,
+      "specificBlocks": [
+        16067640
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 16089027,
+      "endBlock": 16089027,
+      "specificBlocks": [
+        16089027
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 16104798,
+      "endBlock": 16104944,
+      "specificBlocks": [
+        16104798,
+        16104944
+      ],
+      "totalBlocks": 147,
+      "efficiencyRatio": 0.013605442176870748
+    },
+    {
+      "startBlock": 16120546,
+      "endBlock": 16120546,
+      "specificBlocks": [
+        16120546
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 16140250,
+      "endBlock": 16140250,
+      "specificBlocks": [
+        16140250
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 16148188,
+      "endBlock": 16148188,
+      "specificBlocks": [
+        16148188
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 16155175,
+      "endBlock": 16155529,
+      "specificBlocks": [
+        16155175,
+        16155203,
+        16155497,
+        16155529
+      ],
+      "totalBlocks": 355,
+      "efficiencyRatio": 0.011267605633802818
+    },
+    {
+      "startBlock": 16290704,
+      "endBlock": 16290704,
+      "specificBlocks": [
+        16290704
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 16332245,
+      "endBlock": 16332245,
+      "specificBlocks": [
+        16332245
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 16367793,
+      "endBlock": 16367793,
+      "specificBlocks": [
+        16367793
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 16375251,
+      "endBlock": 16378671,
+      "specificBlocks": [
+        16375251,
+        16375808,
+        16375822,
+        16378196,
+        16378244,
+        16378253,
+        16378264,
+        16378271,
+        16378306,
+        16378425,
+        16378458,
+        16378482,
+        16378516,
+        16378583,
+        16378588,
+        16378671
+      ],
+      "totalBlocks": 3421,
+      "efficiencyRatio": 0.00467699503069278
+    },
+    {
+      "startBlock": 16418611,
+      "endBlock": 16418611,
+      "specificBlocks": [
+        16418611
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 16434640,
+      "endBlock": 16434640,
+      "specificBlocks": [
+        16434640
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 16476493,
+      "endBlock": 16476493,
+      "specificBlocks": [
+        16476493
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 16483294,
+      "endBlock": 16483294,
+      "specificBlocks": [
+        16483294
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 16527341,
+      "endBlock": 16527341,
+      "specificBlocks": [
+        16527341
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 16532981,
+      "endBlock": 16532981,
+      "specificBlocks": [
+        16532981
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 16541471,
+      "endBlock": 16541471,
+      "specificBlocks": [
+        16541471
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 16583247,
+      "endBlock": 16583247,
+      "specificBlocks": [
+        16583247
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 16590211,
+      "endBlock": 16591808,
+      "specificBlocks": [
+        16590211,
+        16590997,
+        16591808
+      ],
+      "totalBlocks": 1598,
+      "efficiencyRatio": 0.0018773466833541927
+    },
+    {
+      "startBlock": 16597297,
+      "endBlock": 16598409,
+      "specificBlocks": [
+        16597297,
+        16598409
+      ],
+      "totalBlocks": 1113,
+      "efficiencyRatio": 0.0017969451931716084
+    },
+    {
+      "startBlock": 16640195,
+      "endBlock": 16640195,
+      "specificBlocks": [
+        16640195
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 16696974,
+      "endBlock": 16696974,
+      "specificBlocks": [
+        16696974
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 16725604,
+      "endBlock": 16725604,
+      "specificBlocks": [
+        16725604
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 16746552,
+      "endBlock": 16749001,
+      "specificBlocks": [
+        16746552,
+        16749001
+      ],
+      "totalBlocks": 2450,
+      "efficiencyRatio": 0.0008163265306122449
+    },
+    {
+      "startBlock": 16782524,
+      "endBlock": 16783688,
+      "specificBlocks": [
+        16782524,
+        16783683,
+        16783688
+      ],
+      "totalBlocks": 1165,
+      "efficiencyRatio": 0.002575107296137339
+    },
+    {
+      "startBlock": 16804977,
+      "endBlock": 16804977,
+      "specificBlocks": [
+        16804977
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 16842631,
+      "endBlock": 16846802,
+      "specificBlocks": [
+        16842631,
+        16842649,
+        16842658,
+        16842662,
+        16842683,
+        16842689,
+        16842695,
+        16842721,
+        16846802
+      ],
+      "totalBlocks": 4172,
+      "efficiencyRatio": 0.0021572387344199425
+    },
+    {
+      "startBlock": 16878269,
+      "endBlock": 16883796,
+      "specificBlocks": [
+        16878269,
+        16881935,
+        16882012,
+        16883546,
+        16883796
+      ],
+      "totalBlocks": 5528,
+      "efficiencyRatio": 0.0009044862518089725
+    },
+    {
+      "startBlock": 16889132,
+      "endBlock": 16889132,
+      "specificBlocks": [
+        16889132
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 16917044,
+      "endBlock": 16917044,
+      "specificBlocks": [
+        16917044
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 16924623,
+      "endBlock": 16925922,
+      "specificBlocks": [
+        16924623,
+        16924787,
+        16925633,
+        16925922
+      ],
+      "totalBlocks": 1300,
+      "efficiencyRatio": 0.003076923076923077
+    },
+    {
+      "startBlock": 16931956,
+      "endBlock": 16938696,
+      "specificBlocks": [
+        16931956,
+        16932047,
+        16933638,
+        16933718,
+        16938696
+      ],
+      "totalBlocks": 6741,
+      "efficiencyRatio": 0.0007417297136923305
+    },
+    {
+      "startBlock": 16947220,
+      "endBlock": 16947220,
+      "specificBlocks": [
+        16947220
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 16975835,
+      "endBlock": 16975835,
+      "specificBlocks": [
+        16975835
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 16981328,
+      "endBlock": 16981328,
+      "specificBlocks": [
+        16981328
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 16989414,
+      "endBlock": 16989414,
+      "specificBlocks": [
+        16989414
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 17030039,
+      "endBlock": 17030039,
+      "specificBlocks": [
+        17030039
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 17093712,
+      "endBlock": 17093883,
+      "specificBlocks": [
+        17093712,
+        17093883
+      ],
+      "totalBlocks": 172,
+      "efficiencyRatio": 0.011627906976744186
+    },
+    {
+      "startBlock": 17151243,
+      "endBlock": 17151443,
+      "specificBlocks": [
+        17151243,
+        17151443
+      ],
+      "totalBlocks": 201,
+      "efficiencyRatio": 0.009950248756218905
+    },
+    {
+      "startBlock": 17164645,
+      "endBlock": 17166915,
+      "specificBlocks": [
+        17164645,
+        17166914,
+        17166915
+      ],
+      "totalBlocks": 2271,
+      "efficiencyRatio": 0.001321003963011889
+    },
+    {
+      "startBlock": 17214231,
+      "endBlock": 17214349,
+      "specificBlocks": [
+        17214231,
+        17214349
+      ],
+      "totalBlocks": 119,
+      "efficiencyRatio": 0.01680672268907563
+    },
+    {
+      "startBlock": 17263634,
+      "endBlock": 17263634,
+      "specificBlocks": [
+        17263634
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 17270726,
+      "endBlock": 17270726,
+      "specificBlocks": [
+        17270726
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 17277694,
+      "endBlock": 17277694,
+      "specificBlocks": [
+        17277694
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 17324077,
+      "endBlock": 17324077,
+      "specificBlocks": [
+        17324077
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 17336150,
+      "endBlock": 17341630,
+      "specificBlocks": [
+        17336150,
+        17336951,
+        17341630
+      ],
+      "totalBlocks": 5481,
+      "efficiencyRatio": 0.0005473453749315818
+    },
+    {
+      "startBlock": 17370281,
+      "endBlock": 17370786,
+      "specificBlocks": [
+        17370281,
+        17370683,
+        17370768,
+        17370786
+      ],
+      "totalBlocks": 506,
+      "efficiencyRatio": 0.007905138339920948
+    },
+    {
+      "startBlock": 17385127,
+      "endBlock": 17386197,
+      "specificBlocks": [
+        17385127,
+        17386197
+      ],
+      "totalBlocks": 1071,
+      "efficiencyRatio": 0.0018674136321195146
+    },
+    {
+      "startBlock": 17392171,
+      "endBlock": 17392171,
+      "specificBlocks": [
+        17392171
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 17419951,
+      "endBlock": 17421709,
+      "specificBlocks": [
+        17419951,
+        17421709
+      ],
+      "totalBlocks": 1759,
+      "efficiencyRatio": 0.0011370096645821489
+    },
+    {
+      "startBlock": 17451109,
+      "endBlock": 17451109,
+      "specificBlocks": [
+        17451109
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 17469734,
+      "endBlock": 17469734,
+      "specificBlocks": [
+        17469734
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 17521325,
+      "endBlock": 17521325,
+      "specificBlocks": [
+        17521325
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 17536594,
+      "endBlock": 17536661,
+      "specificBlocks": [
+        17536594,
+        17536595,
+        17536596,
+        17536597,
+        17536598,
+        17536599,
+        17536600,
+        17536601,
+        17536602,
+        17536603,
+        17536604,
+        17536605,
+        17536606,
+        17536607,
+        17536608,
+        17536609,
+        17536610,
+        17536611,
+        17536612,
+        17536616,
+        17536645,
+        17536658,
+        17536659,
+        17536660,
+        17536661
+      ],
+      "totalBlocks": 68,
+      "efficiencyRatio": 0.36764705882352944
+    },
+    {
+      "startBlock": 17569898,
+      "endBlock": 17569898,
+      "specificBlocks": [
+        17569898
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 17577306,
+      "endBlock": 17577306,
+      "specificBlocks": [
+        17577306
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 17584432,
+      "endBlock": 17584432,
+      "specificBlocks": [
+        17584432
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 17612933,
+      "endBlock": 17612933,
+      "specificBlocks": [
+        17612933
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 17619075,
+      "endBlock": 17619075,
+      "specificBlocks": [
+        17619075
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 17669372,
+      "endBlock": 17669372,
+      "specificBlocks": [
+        17669372
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 17691771,
+      "endBlock": 17691771,
+      "specificBlocks": [
+        17691771
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 17697611,
+      "endBlock": 17697611,
+      "specificBlocks": [
+        17697611
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 17712759,
+      "endBlock": 17712763,
+      "specificBlocks": [
+        17712759,
+        17712763
+      ],
+      "totalBlocks": 5,
+      "efficiencyRatio": 0.4
+    },
+    {
+      "startBlock": 17719889,
+      "endBlock": 17719889,
+      "specificBlocks": [
+        17719889
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 17758150,
+      "endBlock": 17762377,
+      "specificBlocks": [
+        17758150,
+        17762377
+      ],
+      "totalBlocks": 4228,
+      "efficiencyRatio": 0.0004730368968779565
+    },
+    {
+      "startBlock": 17790775,
+      "endBlock": 17790775,
+      "specificBlocks": [
+        17790775
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 17825473,
+      "endBlock": 17828580,
+      "specificBlocks": [
+        17825473,
+        17828580
+      ],
+      "totalBlocks": 3108,
+      "efficiencyRatio": 0.0006435006435006435
+    },
+    {
+      "startBlock": 17870615,
+      "endBlock": 17870615,
+      "specificBlocks": [
+        17870615
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 17941742,
+      "endBlock": 17941742,
+      "specificBlocks": [
+        17941742
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 17969135,
+      "endBlock": 17969135,
+      "specificBlocks": [
+        17969135
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 17991525,
+      "endBlock": 17991525,
+      "specificBlocks": [
+        17991525
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 18011971,
+      "endBlock": 18011971,
+      "specificBlocks": [
+        18011971
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 18033135,
+      "endBlock": 18036055,
+      "specificBlocks": [
+        18033135,
+        18034137,
+        18036055
+      ],
+      "totalBlocks": 2921,
+      "efficiencyRatio": 0.0010270455323519343
+    },
+    {
+      "startBlock": 18119115,
+      "endBlock": 18119115,
+      "specificBlocks": [
+        18119115
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 18127519,
+      "endBlock": 18127519,
+      "specificBlocks": [
+        18127519
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 18221495,
+      "endBlock": 18221980,
+      "specificBlocks": [
+        18221495,
+        18221603,
+        18221638,
+        18221733,
+        18221858,
+        18221979,
+        18221980
+      ],
+      "totalBlocks": 486,
+      "efficiencyRatio": 0.01440329218106996
+    },
+    {
+      "startBlock": 18292861,
+      "endBlock": 18292861,
+      "specificBlocks": [
+        18292861
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 18333895,
+      "endBlock": 18333914,
+      "specificBlocks": [
+        18333895,
+        18333896,
+        18333897,
+        18333898,
+        18333899,
+        18333900,
+        18333901,
+        18333902,
+        18333903,
+        18333904,
+        18333905,
+        18333906,
+        18333908,
+        18333909,
+        18333910,
+        18333914
+      ],
+      "totalBlocks": 20,
+      "efficiencyRatio": 0.8
+    },
+    {
+      "startBlock": 18362005,
+      "endBlock": 18362005,
+      "specificBlocks": [
+        18362005
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 18419560,
+      "endBlock": 18419560,
+      "specificBlocks": [
+        18419560
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 18427284,
+      "endBlock": 18427284,
+      "specificBlocks": [
+        18427284
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 18452206,
+      "endBlock": 18452206,
+      "specificBlocks": [
+        18452206
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 18469644,
+      "endBlock": 18470686,
+      "specificBlocks": [
+        18469644,
+        18469831,
+        18470622,
+        18470686
+      ],
+      "totalBlocks": 1043,
+      "efficiencyRatio": 0.003835091083413231
+    },
+    {
+      "startBlock": 18526396,
+      "endBlock": 18526396,
+      "specificBlocks": [
+        18526396
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 18534577,
+      "endBlock": 18535348,
+      "specificBlocks": [
+        18534577,
+        18534949,
+        18535348
+      ],
+      "totalBlocks": 772,
+      "efficiencyRatio": 0.0038860103626943004
+    },
+    {
+      "startBlock": 18576134,
+      "endBlock": 18576134,
+      "specificBlocks": [
+        18576134
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 18611654,
+      "endBlock": 18611654,
+      "specificBlocks": [
+        18611654
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 18729562,
+      "endBlock": 18734860,
+      "specificBlocks": [
+        18729562,
+        18733914,
+        18733933,
+        18733938,
+        18733940,
+        18734032,
+        18734860
+      ],
+      "totalBlocks": 5299,
+      "efficiencyRatio": 0.001321003963011889
+    },
+    {
+      "startBlock": 18762799,
+      "endBlock": 18763994,
+      "specificBlocks": [
+        18762799,
+        18762834,
+        18763994
+      ],
+      "totalBlocks": 1196,
+      "efficiencyRatio": 0.002508361204013378
+    },
+    {
+      "startBlock": 18769851,
+      "endBlock": 18769851,
+      "specificBlocks": [
+        18769851
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 18790415,
+      "endBlock": 18790415,
+      "specificBlocks": [
+        18790415
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 18806786,
+      "endBlock": 18806786,
+      "specificBlocks": [
+        18806786
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 18821254,
+      "endBlock": 18821254,
+      "specificBlocks": [
+        18821254
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 18842072,
+      "endBlock": 18842072,
+      "specificBlocks": [
+        18842072
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 18961472,
+      "endBlock": 18961472,
+      "specificBlocks": [
+        18961472
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 18982671,
+      "endBlock": 18982671,
+      "specificBlocks": [
+        18982671
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 19028604,
+      "endBlock": 19032565,
+      "specificBlocks": [
+        19028604,
+        19028642,
+        19032565
+      ],
+      "totalBlocks": 3962,
+      "efficiencyRatio": 0.000757193336698637
+    },
+    {
+      "startBlock": 19039782,
+      "endBlock": 19039782,
+      "specificBlocks": [
+        19039782
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 19075226,
+      "endBlock": 19075226,
+      "specificBlocks": [
+        19075226
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 19111158,
+      "endBlock": 19111158,
+      "specificBlocks": [
+        19111158
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 19175735,
+      "endBlock": 19175735,
+      "specificBlocks": [
+        19175735
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 19234951,
+      "endBlock": 19235045,
+      "specificBlocks": [
+        19234951,
+        19235045
+      ],
+      "totalBlocks": 95,
+      "efficiencyRatio": 0.021052631578947368
+    },
+    {
+      "startBlock": 19261042,
+      "endBlock": 19261042,
+      "specificBlocks": [
+        19261042
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 19303462,
+      "endBlock": 19303462,
+      "specificBlocks": [
+        19303462
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 19324192,
+      "endBlock": 19324192,
+      "specificBlocks": [
+        19324192
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 19389693,
+      "endBlock": 19389901,
+      "specificBlocks": [
+        19389693,
+        19389815,
+        19389901
+      ],
+      "totalBlocks": 209,
+      "efficiencyRatio": 0.014354066985645933
+    },
+    {
+      "startBlock": 19440976,
+      "endBlock": 19440976,
+      "specificBlocks": [
+        19440976
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 19485219,
+      "endBlock": 19485219,
+      "specificBlocks": [
+        19485219
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 19510497,
+      "endBlock": 19510497,
+      "specificBlocks": [
+        19510497
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 19519014,
+      "endBlock": 19519014,
+      "specificBlocks": [
+        19519014
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 19525048,
+      "endBlock": 19528032,
+      "specificBlocks": [
+        19525048,
+        19528032
+      ],
+      "totalBlocks": 2985,
+      "efficiencyRatio": 0.0006700167504187605
+    },
+    {
+      "startBlock": 19566934,
+      "endBlock": 19566934,
+      "specificBlocks": [
+        19566934
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 19580993,
+      "endBlock": 19580993,
+      "specificBlocks": [
+        19580993
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 19587781,
+      "endBlock": 19587781,
+      "specificBlocks": [
+        19587781
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 19609866,
+      "endBlock": 19609866,
+      "specificBlocks": [
+        19609866
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 19634414,
+      "endBlock": 19634414,
+      "specificBlocks": [
+        19634414
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 19660105,
+      "endBlock": 19664012,
+      "specificBlocks": [
+        19660105,
+        19661123,
+        19664012
+      ],
+      "totalBlocks": 3908,
+      "efficiencyRatio": 0.0007676560900716479
+    },
+    {
+      "startBlock": 19669632,
+      "endBlock": 19669632,
+      "specificBlocks": [
+        19669632
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 19676613,
+      "endBlock": 19676677,
+      "specificBlocks": [
+        19676613,
+        19676677
+      ],
+      "totalBlocks": 65,
+      "efficiencyRatio": 0.03076923076923077
+    },
+    {
+      "startBlock": 19682379,
+      "endBlock": 19682379,
+      "specificBlocks": [
+        19682379
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 19732065,
+      "endBlock": 19740331,
+      "specificBlocks": [
+        19732065,
+        19737036,
+        19739755,
+        19739765,
+        19740331
+      ],
+      "totalBlocks": 8267,
+      "efficiencyRatio": 0.000604814322003145
+    },
+    {
+      "startBlock": 19766941,
+      "endBlock": 19775323,
+      "specificBlocks": [
+        19766941,
+        19769451,
+        19770116,
+        19770142,
+        19770413,
+        19775323
+      ],
+      "totalBlocks": 8383,
+      "efficiencyRatio": 0.0007157342240248121
+    },
+    {
+      "startBlock": 19781968,
+      "endBlock": 19781968,
+      "specificBlocks": [
+        19781968
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 19788198,
+      "endBlock": 19789109,
+      "specificBlocks": [
+        19788198,
+        19789109
+      ],
+      "totalBlocks": 912,
+      "efficiencyRatio": 0.0021929824561403508
+    },
+    {
+      "startBlock": 19816593,
+      "endBlock": 19816593,
+      "specificBlocks": [
+        19816593
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 19917109,
+      "endBlock": 19917109,
+      "specificBlocks": [
+        19917109
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 20010029,
+      "endBlock": 20010029,
+      "specificBlocks": [
+        20010029
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 20024089,
+      "endBlock": 20024089,
+      "specificBlocks": [
+        20024089
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 20031262,
+      "endBlock": 20032762,
+      "specificBlocks": [
+        20031262,
+        20032762
+      ],
+      "totalBlocks": 1501,
+      "efficiencyRatio": 0.0013324450366422385
+    },
+    {
+      "startBlock": 20083744,
+      "endBlock": 20083744,
+      "specificBlocks": [
+        20083744
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 20111603,
+      "endBlock": 20111603,
+      "specificBlocks": [
+        20111603
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 20161268,
+      "endBlock": 20161679,
+      "specificBlocks": [
+        20161268,
+        20161679
+      ],
+      "totalBlocks": 412,
+      "efficiencyRatio": 0.0048543689320388345
+    },
+    {
+      "startBlock": 20174887,
+      "endBlock": 20175013,
+      "specificBlocks": [
+        20174887,
+        20175013
+      ],
+      "totalBlocks": 127,
+      "efficiencyRatio": 0.015748031496062992
+    },
+    {
+      "startBlock": 20184746,
+      "endBlock": 20184746,
+      "specificBlocks": [
+        20184746
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 20235586,
+      "endBlock": 20235586,
+      "specificBlocks": [
+        20235586
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 20248275,
+      "endBlock": 20248275,
+      "specificBlocks": [
+        20248275
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 20292680,
+      "endBlock": 20292680,
+      "specificBlocks": [
+        20292680
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 20318964,
+      "endBlock": 20318964,
+      "specificBlocks": [
+        20318964
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 20324754,
+      "endBlock": 20324754,
+      "specificBlocks": [
+        20324754
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 20331320,
+      "endBlock": 20331320,
+      "specificBlocks": [
+        20331320
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 20339529,
+      "endBlock": 20339530,
+      "specificBlocks": [
+        20339529,
+        20339530
+      ],
+      "totalBlocks": 2,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 20383845,
+      "endBlock": 20383845,
+      "specificBlocks": [
+        20383845
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 20389780,
+      "endBlock": 20389780,
+      "specificBlocks": [
+        20389780
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 20425557,
+      "endBlock": 20427413,
+      "specificBlocks": [
+        20425557,
+        20425758,
+        20427413
+      ],
+      "totalBlocks": 1857,
+      "efficiencyRatio": 0.0016155088852988692
+    },
+    {
+      "startBlock": 20471325,
+      "endBlock": 20475451,
+      "specificBlocks": [
+        20471325,
+        20475451
+      ],
+      "totalBlocks": 4127,
+      "efficiencyRatio": 0.000484613520717228
+    },
+    {
+      "startBlock": 20568241,
+      "endBlock": 20568241,
+      "specificBlocks": [
+        20568241
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 20589987,
+      "endBlock": 20592606,
+      "specificBlocks": [
+        20589987,
+        20592541,
+        20592576,
+        20592606
+      ],
+      "totalBlocks": 2620,
+      "efficiencyRatio": 0.0015267175572519084
+    },
+    {
+      "startBlock": 20673116,
+      "endBlock": 20673144,
+      "specificBlocks": [
+        20673116,
+        20673144
+      ],
+      "totalBlocks": 29,
+      "efficiencyRatio": 0.06896551724137931
+    },
+    {
+      "startBlock": 20682802,
+      "endBlock": 20682802,
+      "specificBlocks": [
+        20682802
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 20692452,
+      "endBlock": 20692452,
+      "specificBlocks": [
+        20692452
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 20719695,
+      "endBlock": 20719695,
+      "specificBlocks": [
+        20719695
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 20740227,
+      "endBlock": 20740671,
+      "specificBlocks": [
+        20740227,
+        20740598,
+        20740671
+      ],
+      "totalBlocks": 445,
+      "efficiencyRatio": 0.006741573033707865
+    },
+    {
+      "startBlock": 20770179,
+      "endBlock": 20770179,
+      "specificBlocks": [
+        20770179
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 20777604,
+      "endBlock": 20777701,
+      "specificBlocks": [
+        20777604,
+        20777610,
+        20777701
+      ],
+      "totalBlocks": 98,
+      "efficiencyRatio": 0.030612244897959183
+    },
+    {
+      "startBlock": 20833975,
+      "endBlock": 20833975,
+      "specificBlocks": [
+        20833975
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 20842448,
+      "endBlock": 20842448,
+      "specificBlocks": [
+        20842448
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 20863404,
+      "endBlock": 20863404,
+      "specificBlocks": [
+        20863404
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 20883553,
+      "endBlock": 20885050,
+      "specificBlocks": [
+        20883553,
+        20885050
+      ],
+      "totalBlocks": 1498,
+      "efficiencyRatio": 0.0013351134846461949
+    },
+    {
+      "startBlock": 20915288,
+      "endBlock": 20919833,
+      "specificBlocks": [
+        20915288,
+        20915353,
+        20919833
+      ],
+      "totalBlocks": 4546,
+      "efficiencyRatio": 0.0006599208095028596
+    },
+    {
+      "startBlock": 20955699,
+      "endBlock": 20955699,
+      "specificBlocks": [
+        20955699
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 20971556,
+      "endBlock": 20971556,
+      "specificBlocks": [
+        20971556
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 20984028,
+      "endBlock": 20991052,
+      "specificBlocks": [
+        20984028,
+        20986198,
+        20991052
+      ],
+      "totalBlocks": 7025,
+      "efficiencyRatio": 0.00042704626334519574
+    },
+    {
+      "startBlock": 21046085,
+      "endBlock": 21046121,
+      "specificBlocks": [
+        21046085,
+        21046121
+      ],
+      "totalBlocks": 37,
+      "efficiencyRatio": 0.05405405405405406
+    },
+    {
+      "startBlock": 21072544,
+      "endBlock": 21072544,
+      "specificBlocks": [
+        21072544
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 21078592,
+      "endBlock": 21078592,
+      "specificBlocks": [
+        21078592
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 21108941,
+      "endBlock": 21110821,
+      "specificBlocks": [
+        21108941,
+        21108955,
+        21108981,
+        21108998,
+        21109019,
+        21110649,
+        21110653,
+        21110657,
+        21110687,
+        21110697,
+        21110821
+      ],
+      "totalBlocks": 1881,
+      "efficiencyRatio": 0.005847953216374269
+    },
+    {
+      "startBlock": 21134550,
+      "endBlock": 21134623,
+      "specificBlocks": [
+        21134550,
+        21134623
+      ],
+      "totalBlocks": 74,
+      "efficiencyRatio": 0.02702702702702703
+    },
+    {
+      "startBlock": 21164407,
+      "endBlock": 21164407,
+      "specificBlocks": [
+        21164407
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 21192064,
+      "endBlock": 21192135,
+      "specificBlocks": [
+        21192064,
+        21192135
+      ],
+      "totalBlocks": 72,
+      "efficiencyRatio": 0.027777777777777776
+    },
+    {
+      "startBlock": 21220336,
+      "endBlock": 21220829,
+      "specificBlocks": [
+        21220336,
+        21220460,
+        21220829
+      ],
+      "totalBlocks": 494,
+      "efficiencyRatio": 0.006072874493927126
+    },
+    {
+      "startBlock": 21270635,
+      "endBlock": 21270635,
+      "specificBlocks": [
+        21270635
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 21279197,
+      "endBlock": 21279197,
+      "specificBlocks": [
+        21279197
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 21285332,
+      "endBlock": 21285332,
+      "specificBlocks": [
+        21285332
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 21342390,
+      "endBlock": 21342390,
+      "specificBlocks": [
+        21342390
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 21379842,
+      "endBlock": 21379842,
+      "specificBlocks": [
+        21379842
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 21421173,
+      "endBlock": 21423353,
+      "specificBlocks": [
+        21421173,
+        21423353
+      ],
+      "totalBlocks": 2181,
+      "efficiencyRatio": 0.0009170105456212746
+    },
+    {
+      "startBlock": 21442428,
+      "endBlock": 21442428,
+      "specificBlocks": [
+        21442428
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 21514992,
+      "endBlock": 21514992,
+      "specificBlocks": [
+        21514992
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 21560264,
+      "endBlock": 21560264,
+      "specificBlocks": [
+        21560264
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 21571494,
+      "endBlock": 21571494,
+      "specificBlocks": [
+        21571494
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 21578364,
+      "endBlock": 21580644,
+      "specificBlocks": [
+        21578364,
+        21579252,
+        21580644
+      ],
+      "totalBlocks": 2281,
+      "efficiencyRatio": 0.00131521262604121
+    },
+    {
+      "startBlock": 21585697,
+      "endBlock": 21587131,
+      "specificBlocks": [
+        21585697,
+        21587131
+      ],
+      "totalBlocks": 1435,
+      "efficiencyRatio": 0.0013937282229965157
+    },
+    {
+      "startBlock": 21622854,
+      "endBlock": 21622854,
+      "specificBlocks": [
+        21622854
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 21636161,
+      "endBlock": 21636161,
+      "specificBlocks": [
+        21636161
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 21673505,
+      "endBlock": 21673505,
+      "specificBlocks": [
+        21673505
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 21686405,
+      "endBlock": 21686405,
+      "specificBlocks": [
+        21686405
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 21730237,
+      "endBlock": 21730237,
+      "specificBlocks": [
+        21730237
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 21771802,
+      "endBlock": 21772041,
+      "specificBlocks": [
+        21771802,
+        21772041
+      ],
+      "totalBlocks": 240,
+      "efficiencyRatio": 0.008333333333333333
+    },
+    {
+      "startBlock": 21780972,
+      "endBlock": 21780972,
+      "specificBlocks": [
+        21780972
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 21788117,
+      "endBlock": 21788117,
+      "specificBlocks": [
+        21788117
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 21829109,
+      "endBlock": 21829109,
+      "specificBlocks": [
+        21829109
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 21836416,
+      "endBlock": 21836416,
+      "specificBlocks": [
+        21836416
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 21843655,
+      "endBlock": 21843655,
+      "specificBlocks": [
+        21843655
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 21879208,
+      "endBlock": 21879208,
+      "specificBlocks": [
+        21879208
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 21886380,
+      "endBlock": 21886380,
+      "specificBlocks": [
+        21886380
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 21893226,
+      "endBlock": 21893226,
+      "specificBlocks": [
+        21893226
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 21916918,
+      "endBlock": 21916918,
+      "specificBlocks": [
+        21916918
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 21922460,
+      "endBlock": 21922498,
+      "specificBlocks": [
+        21922460,
+        21922498
+      ],
+      "totalBlocks": 39,
+      "efficiencyRatio": 0.05128205128205128
+    },
+    {
+      "startBlock": 21929286,
+      "endBlock": 21929286,
+      "specificBlocks": [
+        21929286
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 21938530,
+      "endBlock": 21938531,
+      "specificBlocks": [
+        21938530,
+        21938531
+      ],
+      "totalBlocks": 2,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 21943593,
+      "endBlock": 21943593,
+      "specificBlocks": [
+        21943593
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 21967819,
+      "endBlock": 21967819,
+      "specificBlocks": [
+        21967819
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 21979512,
+      "endBlock": 21981046,
+      "specificBlocks": [
+        21979512,
+        21979528,
+        21981046
+      ],
+      "totalBlocks": 1535,
+      "efficiencyRatio": 0.001954397394136808
+    },
+    {
+      "startBlock": 21986539,
+      "endBlock": 21987090,
+      "specificBlocks": [
+        21986539,
+        21987090
+      ],
+      "totalBlocks": 552,
+      "efficiencyRatio": 0.0036231884057971015
+    },
+    {
+      "startBlock": 22015704,
+      "endBlock": 22015704,
+      "specificBlocks": [
+        22015704
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 22022940,
+      "endBlock": 22023883,
+      "specificBlocks": [
+        22022940,
+        22023883
+      ],
+      "totalBlocks": 944,
+      "efficiencyRatio": 0.00211864406779661
+    },
+    {
+      "startBlock": 22029257,
+      "endBlock": 22031590,
+      "specificBlocks": [
+        22029257,
+        22031590
+      ],
+      "totalBlocks": 2334,
+      "efficiencyRatio": 0.000856898029134533
+    },
+    {
+      "startBlock": 22037155,
+      "endBlock": 22038898,
+      "specificBlocks": [
+        22037155,
+        22037292,
+        22038436,
+        22038898
+      ],
+      "totalBlocks": 1744,
+      "efficiencyRatio": 0.0022935779816513763
+    },
+    {
+      "startBlock": 22079320,
+      "endBlock": 22081016,
+      "specificBlocks": [
+        22079320,
+        22081016
+      ],
+      "totalBlocks": 1697,
+      "efficiencyRatio": 0.0011785503830288745
+    },
+    {
+      "startBlock": 22094052,
+      "endBlock": 22094052,
+      "specificBlocks": [
+        22094052
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 22115785,
+      "endBlock": 22115785,
+      "specificBlocks": [
+        22115785
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 22122973,
+      "endBlock": 22122973,
+      "specificBlocks": [
+        22122973
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 22144965,
+      "endBlock": 22144965,
+      "specificBlocks": [
+        22144965
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 22166264,
+      "endBlock": 22166264,
+      "specificBlocks": [
+        22166264
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 22179738,
+      "endBlock": 22179738,
+      "specificBlocks": [
+        22179738
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 22194005,
+      "endBlock": 22194005,
+      "specificBlocks": [
+        22194005
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 22202971,
+      "endBlock": 22202971,
+      "specificBlocks": [
+        22202971
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 22215337,
+      "endBlock": 22215337,
+      "specificBlocks": [
+        22215337
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 22238497,
+      "endBlock": 22238497,
+      "specificBlocks": [
+        22238497
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 22243902,
+      "endBlock": 22243902,
+      "specificBlocks": [
+        22243902
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 22281209,
+      "endBlock": 22281209,
+      "specificBlocks": [
+        22281209
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 22367544,
+      "endBlock": 22367544,
+      "specificBlocks": [
+        22367544
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 22374943,
+      "endBlock": 22375476,
+      "specificBlocks": [
+        22374943,
+        22374953,
+        22375476
+      ],
+      "totalBlocks": 534,
+      "efficiencyRatio": 0.0056179775280898875
+    },
+    {
+      "startBlock": 22424783,
+      "endBlock": 22425679,
+      "specificBlocks": [
+        22424783,
+        22425679
+      ],
+      "totalBlocks": 897,
+      "efficiencyRatio": 0.002229654403567447
+    },
+    {
+      "startBlock": 22474263,
+      "endBlock": 22476197,
+      "specificBlocks": [
+        22474263,
+        22476197
+      ],
+      "totalBlocks": 1935,
+      "efficiencyRatio": 0.0010335917312661498
+    },
+    {
+      "startBlock": 22523682,
+      "endBlock": 22524460,
+      "specificBlocks": [
+        22523682,
+        22524460
+      ],
+      "totalBlocks": 779,
+      "efficiencyRatio": 0.0025673940949935813
+    },
+    {
+      "startBlock": 22529747,
+      "endBlock": 22531725,
+      "specificBlocks": [
+        22529747,
+        22531725
+      ],
+      "totalBlocks": 1979,
+      "efficiencyRatio": 0.001010611419909045
+    },
+    {
+      "startBlock": 22545705,
+      "endBlock": 22546416,
+      "specificBlocks": [
+        22545705,
+        22545712,
+        22545797,
+        22545817,
+        22546416
+      ],
+      "totalBlocks": 712,
+      "efficiencyRatio": 0.007022471910112359
+    },
+    {
+      "startBlock": 22567819,
+      "endBlock": 22567819,
+      "specificBlocks": [
+        22567819
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 22644845,
+      "endBlock": 22644845,
+      "specificBlocks": [
+        22644845
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 22679546,
+      "endBlock": 22679546,
+      "specificBlocks": [
+        22679546
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 22724127,
+      "endBlock": 22724497,
+      "specificBlocks": [
+        22724127,
+        22724468,
+        22724497
+      ],
+      "totalBlocks": 371,
+      "efficiencyRatio": 0.008086253369272238
+    },
+    {
+      "startBlock": 22729599,
+      "endBlock": 22729725,
+      "specificBlocks": [
+        22729599,
+        22729725
+      ],
+      "totalBlocks": 127,
+      "efficiencyRatio": 0.015748031496062992
+    },
+    {
+      "startBlock": 22743983,
+      "endBlock": 22746215,
+      "specificBlocks": [
+        22743983,
+        22746215
+      ],
+      "totalBlocks": 2233,
+      "efficiencyRatio": 0.0008956560680698612
+    },
+    {
+      "startBlock": 22765720,
+      "endBlock": 22765720,
+      "specificBlocks": [
+        22765720
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 22787048,
+      "endBlock": 22787048,
+      "specificBlocks": [
+        22787048
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 22795022,
+      "endBlock": 22797056,
+      "specificBlocks": [
+        22795022,
+        22796188,
+        22796900,
+        22797042,
+        22797056
+      ],
+      "totalBlocks": 2035,
+      "efficiencyRatio": 0.002457002457002457
+    },
+    {
+      "startBlock": 22816096,
+      "endBlock": 22816096,
+      "specificBlocks": [
+        22816096
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 22837166,
+      "endBlock": 22837166,
+      "specificBlocks": [
+        22837166
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 22861545,
+      "endBlock": 22861679,
+      "specificBlocks": [
+        22861545,
+        22861679
+      ],
+      "totalBlocks": 135,
+      "efficiencyRatio": 0.014814814814814815
+    },
+    {
+      "startBlock": 22872981,
+      "endBlock": 22872981,
+      "specificBlocks": [
+        22872981
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 22883345,
+      "endBlock": 22883345,
+      "specificBlocks": [
+        22883345
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 22893971,
+      "endBlock": 22893971,
+      "specificBlocks": [
+        22893971
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 22916062,
+      "endBlock": 22916062,
+      "specificBlocks": [
+        22916062
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 22923678,
+      "endBlock": 22924819,
+      "specificBlocks": [
+        22923678,
+        22923723,
+        22924819
+      ],
+      "totalBlocks": 1142,
+      "efficiencyRatio": 0.002626970227670753
+    },
+    {
+      "startBlock": 22930650,
+      "endBlock": 22930650,
+      "specificBlocks": [
+        22930650
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 22939699,
+      "endBlock": 22939699,
+      "specificBlocks": [
+        22939699
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 22946645,
+      "endBlock": 22947024,
+      "specificBlocks": [
+        22946645,
+        22947024
+      ],
+      "totalBlocks": 380,
+      "efficiencyRatio": 0.005263157894736842
+    },
+    {
+      "startBlock": 22965747,
+      "endBlock": 22965747,
+      "specificBlocks": [
+        22965747
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 22973790,
+      "endBlock": 22973790,
+      "specificBlocks": [
+        22973790
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 22994574,
+      "endBlock": 22994574,
+      "specificBlocks": [
+        22994574
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 23016496,
+      "endBlock": 23016496,
+      "specificBlocks": [
+        23016496
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 23030810,
+      "endBlock": 23031053,
+      "specificBlocks": [
+        23030810,
+        23031053
+      ],
+      "totalBlocks": 244,
+      "efficiencyRatio": 0.00819672131147541
+    },
+    {
+      "startBlock": 23039230,
+      "endBlock": 23039230,
+      "specificBlocks": [
+        23039230
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 23075791,
+      "endBlock": 23080898,
+      "specificBlocks": [
+        23075791,
+        23080383,
+        23080898
+      ],
+      "totalBlocks": 5108,
+      "efficiencyRatio": 0.0005873140172278779
+    },
+    {
+      "startBlock": 23087254,
+      "endBlock": 23087891,
+      "specificBlocks": [
+        23087254,
+        23087891
+      ],
+      "totalBlocks": 638,
+      "efficiencyRatio": 0.003134796238244514
+    },
+    {
+      "startBlock": 23116627,
+      "endBlock": 23116627,
+      "specificBlocks": [
+        23116627
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 23123803,
+      "endBlock": 23124260,
+      "specificBlocks": [
+        23123803,
+        23124260
+      ],
+      "totalBlocks": 458,
+      "efficiencyRatio": 0.004366812227074236
+    },
+    {
+      "startBlock": 23166684,
+      "endBlock": 23166684,
+      "specificBlocks": [
+        23166684
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 23173811,
+      "endBlock": 23173942,
+      "specificBlocks": [
+        23173811,
+        23173942
+      ],
+      "totalBlocks": 132,
+      "efficiencyRatio": 0.015151515151515152
+    },
+    {
+      "startBlock": 23187919,
+      "endBlock": 23187919,
+      "specificBlocks": [
+        23187919
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 23196636,
+      "endBlock": 23196636,
+      "specificBlocks": [
+        23196636
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 23216840,
+      "endBlock": 23217991,
+      "specificBlocks": [
+        23216840,
+        23216993,
+        23217991
+      ],
+      "totalBlocks": 1152,
+      "efficiencyRatio": 0.0026041666666666665
+    },
+    {
+      "startBlock": 23225932,
+      "endBlock": 23225932,
+      "specificBlocks": [
+        23225932
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 23268497,
+      "endBlock": 23268497,
+      "specificBlocks": [
+        23268497
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 23274092,
+      "endBlock": 23276049,
+      "specificBlocks": [
+        23274092,
+        23275932,
+        23276049
+      ],
+      "totalBlocks": 1958,
+      "efficiencyRatio": 0.0015321756894790602
+    },
+    {
+      "startBlock": 23333064,
+      "endBlock": 23333110,
+      "specificBlocks": [
+        23333064,
+        23333110
+      ],
+      "totalBlocks": 47,
+      "efficiencyRatio": 0.0425531914893617
+    },
+    {
+      "startBlock": 23338409,
+      "endBlock": 23338409,
+      "specificBlocks": [
+        23338409
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 23367713,
+      "endBlock": 23367713,
+      "specificBlocks": [
+        23367713
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 23376738,
+      "endBlock": 23382592,
+      "specificBlocks": [
+        23376738,
+        23381136,
+        23382557,
+        23382570,
+        23382592
+      ],
+      "totalBlocks": 5855,
+      "efficiencyRatio": 0.0008539709649871904
+    },
+    {
+      "startBlock": 23431254,
+      "endBlock": 23431254,
+      "specificBlocks": [
+        23431254
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 23440623,
+      "endBlock": 23440623,
+      "specificBlocks": [
+        23440623
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 23445757,
+      "endBlock": 23445757,
+      "specificBlocks": [
+        23445757
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 23476830,
+      "endBlock": 23481318,
+      "specificBlocks": [
+        23476830,
+        23481318
+      ],
+      "totalBlocks": 4489,
+      "efficiencyRatio": 0.00044553352639786146
+    },
+    {
+      "startBlock": 23488379,
+      "endBlock": 23490366,
+      "specificBlocks": [
+        23488379,
+        23488388,
+        23488420,
+        23489303,
+        23490366
+      ],
+      "totalBlocks": 1988,
+      "efficiencyRatio": 0.0025150905432595573
+    },
+    {
+      "startBlock": 23497539,
+      "endBlock": 23497539,
+      "specificBlocks": [
+        23497539
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 23510901,
+      "endBlock": 23510901,
+      "specificBlocks": [
+        23510901
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 23523548,
+      "endBlock": 23526297,
+      "specificBlocks": [
+        23523548,
+        23526297
+      ],
+      "totalBlocks": 2750,
+      "efficiencyRatio": 0.0007272727272727272
+    },
+    {
+      "startBlock": 23531888,
+      "endBlock": 23531888,
+      "specificBlocks": [
+        23531888
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 23556279,
+      "endBlock": 23556279,
+      "specificBlocks": [
+        23556279
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 23568628,
+      "endBlock": 23568628,
+      "specificBlocks": [
+        23568628
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 23575671,
+      "endBlock": 23575671,
+      "specificBlocks": [
+        23575671
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 23588305,
+      "endBlock": 23588305,
+      "specificBlocks": [
+        23588305
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 23617733,
+      "endBlock": 23617733,
+      "specificBlocks": [
+        23617733
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    },
+    {
+      "startBlock": 23639870,
+      "endBlock": 23639870,
+      "specificBlocks": [
+        23639870
+      ],
+      "totalBlocks": 1,
+      "efficiencyRatio": 1
+    }
+  ],
+  "statistics": {
+    "totalRanges": 328,
+    "totalSpecificBlocks": 607,
+    "totalBlocksToScan": 223715,
+    "reductionPercentage": 97.53357236710242
+  }
+}
