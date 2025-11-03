@@ -2,105 +2,105 @@
 
 ## ✅ Code Quality
 
-- [x] Optimierter Code (89.76% RPC-Reduktion)
+- [x] Optimized code (89.76% RPC reduction)
 - [x] TypeScript strict mode
-- [x] Keine TODOs/FIXMEs im Code
-- [x] In-Memory Balance Tracking (keine unnötigen RPC-Calls)
-- [x] O(1) Block-Lookup mit Set
-- [x] 2,061 Event-Handler dynamisch registriert
-- [x] Codegen funktioniert einwandfrei
+- [x] No TODOs/FIXMEs in code
+- [x] In-Memory Balance Tracking (no unnecessary RPC calls)
+- [x] O(1) Block-Lookup with Set
+- [x] 2,061 event handlers dynamically registered
+- [x] Codegen works flawlessly
 
 ## ✅ Configuration
 
-- [x] `.env.example` vorhanden
-- [x] `.gitignore` konfiguriert (.env, .ponder/, node_modules/)
-- [x] ponder.config.ts optimiert (228 Ranges)
-- [x] ponder.schema.ts vollständig
-- [x] package.json mit korrekten Dependencies
+- [x] `.env.example` present
+- [x] `.gitignore` configured (.env, .ponder/, node_modules/)
+- [x] ponder.config.ts optimized (228 ranges)
+- [x] ponder.schema.ts complete
+- [x] package.json with correct dependencies
 
 ## ✅ Documentation
 
-- [x] README.md mit Quick Start
-- [x] OPTIMIZATION.md mit technischen Details
-- [x] QUICKSTART-OPTIMIZATION.md für schnellen Einstieg
-- [x] Inline-Kommentare im Code
-- [x] GraphQL API Beispiele
+- [x] README.md with Quick Start
+- [x] OPTIMIZATION.md with technical details
+- [x] QUICKSTART-OPTIMIZATION.md for quick start
+- [x] Inline comments in code
+- [x] GraphQL API examples
 
 ## ✅ Scripts & Tools
 
-- [x] analyze-blocks.ts (Block-Analyse)
-- [x] generate-config.ts (Config-Generierung)
-- [x] apply-optimization.ts (mit automatischen Backups)
-- [x] Alle Scripts funktionieren
+- [x] analyze-blocks.ts (block analysis)
+- [x] generate-config.ts (config generation)
+- [x] apply-optimization.ts (with automatic backups)
+- [x] All scripts working
 
 ## ✅ Testing
 
-- [x] Lokaler Dev-Server startet erfolgreich
-- [x] GraphQL API erreichbar
-- [x] Events werden korrekt indexiert
-- [x] Optimierung ist aktiv (1,485 Intervalle)
-- [x] Sync läuft stabil
+- [x] Local dev server starts successfully
+- [x] GraphQL API accessible
+- [x] Events indexed correctly
+- [x] Optimization active (1,485 intervals)
+- [x] Sync runs stably
 
-## ⚠️ Vor Production Deployment
+## ⚠️ Before Production Deployment
 
 ### Environment
 
-- [ ] RPC URL auf Production-Provider umstellen
-  - Empfehlung: Alchemy Growth/Scale Plan oder dedizierte Node
-  - Rate Limits prüfen (mind. 10 req/s empfohlen)
+- [ ] Switch RPC URL to production provider
+  - Recommendation: Alchemy Growth/Scale Plan or dedicated node
+  - Check rate limits (min. 10 req/s recommended)
 
 ### Database
 
-- [ ] **PostgreSQL verwenden** statt SQLite
+- [ ] **Use PostgreSQL** instead of SQLite
   ```
   DATABASE_URL=postgresql://user:pass@host:5432/ponder
   ```
-- [ ] DB-Backups einrichten
-- [ ] Connection Pool konfigurieren
+- [ ] Set up DB backups
+- [ ] Configure connection pool
 
 ### Monitoring
 
-- [ ] Logging-Level setzen: `PONDER_LOG_LEVEL=warn`
-- [ ] Error-Tracking einrichten (z.B. Sentry)
-- [ ] Metriken sammeln:
-  - RPC req/s Rate
-  - Sync-Progress
-  - DB-Größe
-  - Event-Counts
-- [ ] Alerts konfigurieren:
-  - Sync stoppt
-  - RPC Rate Limit erreicht
-  - DB-Fehler
+- [ ] Set logging level: `PONDER_LOG_LEVEL=warn`
+- [ ] Set up error tracking (e.g. Sentry)
+- [ ] Collect metrics:
+  - RPC req/s rate
+  - Sync progress
+  - DB size
+  - Event counts
+- [ ] Configure alerts:
+  - Sync stops
+  - RPC rate limit reached
+  - DB errors
 
 ### Security
 
-- [ ] `.env` nie committen (in .gitignore)
-- [ ] RPC API Keys rotieren
-- [ ] GraphQL Rate Limiting aktivieren
-- [ ] CORS-Policy konfigurieren
-- [ ] Firewall-Rules für DB
+- [ ] Never commit `.env` (in .gitignore)
+- [ ] Rotate RPC API keys
+- [ ] Enable GraphQL rate limiting
+- [ ] Configure CORS policy
+- [ ] Set up firewall rules for DB
 
 ### Performance
 
-- [ ] RPC Provider Tier prüfen (Premium empfohlen)
-- [ ] PostgreSQL Query Optimierung
-- [ ] Index auf häufig abgefragte Felder
-- [ ] Connection Pooling konfigurieren
+- [ ] Check RPC provider tier (premium recommended)
+- [ ] PostgreSQL query optimization
+- [ ] Index frequently queried fields
+- [ ] Configure connection pooling
 
 ### Deployment
 
-- [ ] CI/CD Pipeline einrichten
-- [ ] Health Check Endpoint
-- [ ] Graceful Shutdown implementieren
-- [ ] Auto-Restart bei Crash
-- [ ] Zero-Downtime Deployment
+- [ ] Set up CI/CD pipeline
+- [ ] Health check endpoint
+- [ ] Implement graceful shutdown
+- [ ] Auto-restart on crash
+- [ ] Zero-downtime deployment
 
 ### Backup & Recovery
 
-- [ ] `.ponder/` Verzeichnis in Backups
-- [ ] PostgreSQL Dumps schedulen
-- [ ] Recovery-Prozedur testen
-- [ ] Backup in separater Region
+- [ ] Include `.ponder/` directory in backups
+- [ ] Schedule PostgreSQL dumps
+- [ ] Test recovery procedure
+- [ ] Backup in separate region
 
 ## 📋 Production Deployment Steps
 
@@ -122,22 +122,22 @@
 3. **Initial Sync**
    ```bash
    npm run start
-   # Warten bis Sync komplett (8-12 Stunden)
+   # Wait until sync complete (8-12 hours)
    ```
 
-4. **Monitoring einrichten**
-   - Logs überwachen
-   - Metriken sammeln
-   - Alerts konfigurieren
+4. **Set up Monitoring**
+   - Monitor logs
+   - Collect metrics
+   - Configure alerts
 
-5. **GraphQL API absichern**
-   - Rate Limiting
-   - Authentication (falls nötig)
-   - CORS Policy
+5. **Secure GraphQL API**
+   - Rate limiting
+   - Authentication (if needed)
+   - CORS policy
 
 ## 🔍 Health Checks
 
-### Sync Status prüfen
+### Check Sync Status
 ```graphql
 {
   _meta {
@@ -169,40 +169,40 @@ SELECT MAX("blockNumber") FROM "Transfer";
 ## 📊 Expected Performance
 
 **Initial Sync:**
-- Duration: 8-12 Stunden (abhängig von RPC)
-- RPC Calls: ~1,485 Intervalle × 9 Event-Typen
-- DB Size: ~100-500 MB nach komplettem Sync
+- Duration: 8-12 hours (depending on RPC)
+- RPC Calls: ~1,485 intervals × 9 event types
+- DB Size: ~100-500 MB after complete sync
 
 **Live Sync:**
-- New Block: <1 Sekunde
+- New Block: <1 second
 - RPC Rate: 1-2 req/s
 - Latency: Minimal
 
 ## 🐛 Common Issues
 
-**Sync zu langsam?**
-→ RPC Provider upgraden, Rate Limits prüfen
+**Sync too slow?**
+→ Upgrade RPC provider, check rate limits
 
 **"Too many open connections"?**
-→ PostgreSQL connection pool erhöhen
+→ Increase PostgreSQL connection pool
 
-**Events fehlen?**
-→ `.ponder/` löschen, neu syncen
+**Events missing?**
+→ Delete `.ponder/`, resync
 
-**Memory Issues?**
-→ Node.js memory limit erhöhen: `NODE_OPTIONS=--max-old-space-size=4096`
+**Memory issues?**
+→ Increase Node.js memory limit: `NODE_OPTIONS=--max-old-space-size=4096`
 
 ## ✅ Production Ready!
 
-Sobald alle Checkboxen ✅ sind, ist das Projekt **production-ready**!
+Once all checkboxes are ✅, the project is **production-ready**!
 
-**Aktueller Status:**
+**Current Status:**
 - ✅ Code & Configuration: **Ready**
 - ✅ Documentation: **Ready**
 - ✅ Local Testing: **Ready**
-- ⚠️ Production Deployment: **Needs Setup** (siehe oben)
+- ⚠️ Production Deployment: **Needs Setup** (see above)
 
 ---
 
-**Erstellt:** 2025-10-30
-**Letzte Aktualisierung:** 2025-10-30
+**Created:** 2025-10-30
+**Last Updated:** 2025-10-30

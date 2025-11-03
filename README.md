@@ -1,39 +1,39 @@
 # RealUnit Ponder Indexer
 
-Optimierter Ponder-Indexer für den RealUnit Token (0x553C7f9C780316FC1D34b8e14ac2465Ab22a090B) auf Ethereum Mainnet.
+Optimized Ponder indexer for the RealUnit Token (0x553C7f9C780316FC1D34b8e14ac2465Ab22a090B) on Ethereum Mainnet.
 
 ## 🚀 Quick Start
 
 ```bash
-# 1. Dependencies installieren
+# 1. Install dependencies
 npm install
 
-# 2. RPC URL konfigurieren
+# 2. Configure RPC URL
 cp .env.example .env
-# Bearbeite .env und füge deine RPC URL ein
+# Edit .env and add your RPC URL
 
-# 3. Ponder starten
+# 3. Start Ponder
 npm run dev
 ```
 
-## 📊 Optimierung
+## 📊 Optimization
 
-Dieser Indexer ist **hochgradig optimiert**:
+This indexer is **highly optimized**:
 
-- ✅ **89.76% weniger RPC-Calls** (929K statt 9M Blöcke)
-- ✅ **228 optimierte Block-Ranges** statt einem großen Range
-- ✅ **In-Memory Balance Tracking** (keine balanceOf() RPC-Calls)
-- ✅ **O(1) Block-Lookup** mit Set statt Array
-- ✅ **Sync-Zeit: Stunden statt Tage**
+- ✅ **89.76% fewer RPC calls** (929K instead of 9M blocks)
+- ✅ **228 optimized block ranges** instead of one large range
+- ✅ **In-Memory Balance Tracking** (no balanceOf() RPC calls)
+- ✅ **O(1) Block-Lookup** with Set instead of Array
+- ✅ **Sync time: Hours instead of days**
 
-Details siehe [OPTIMIZATION.md](./OPTIMIZATION.md)
+For details see [OPTIMIZATION.md](./OPTIMIZATION.md)
 
 ## 📦 Setup
 
 ### 1. RPC Provider
 
-Du benötigst einen Ethereum RPC-Endpoint:
-- [Alchemy](https://www.alchemy.com/) (empfohlen)
+You need an Ethereum RPC endpoint:
+- [Alchemy](https://www.alchemy.com/) (recommended)
 - [Infura](https://www.infura.io/)
 - [QuickNode](https://www.quicknode.com/)
 
@@ -43,39 +43,39 @@ Du benötigst einen Ethereum RPC-Endpoint:
 cp .env.example .env
 ```
 
-Bearbeite `.env`:
+Edit `.env`:
 ```
 PONDER_RPC_URL_1=https://eth-mainnet.g.alchemy.com/v2/YOUR_API_KEY
 ```
 
-### 3. Starten
+### 3. Start
 
 ```bash
-# Development (mit Hot Reload)
+# Development (with Hot Reload)
 npm run dev
 
 # Production
 npm run start
 
-# TypeScript Types generieren
+# Generate TypeScript types
 npm run codegen
 ```
 
-## 🗄️ Datenbank-Schema
+## 🗄️ Database Schema
 
 ### Transfer
-Alle Transfer-Events:
+All Transfer events:
 - `from`, `to`, `value`
 - `blockNumber`, `blockTimestamp`
 - `transactionHash`, `logIndex`
 
 ### Account
-Konto-Statistiken:
-- `balance` (aktueller Saldo)
+Account statistics:
+- `balance` (current balance)
 - `totalSent`, `totalReceived`
 - `transactionCount`, `approvalCount`
 
-### Weitere Events
+### Additional Events
 - Approval
 - AddressTypeUpdate (Allowlist)
 - Announcement
@@ -85,60 +85,60 @@ Konto-Statistiken:
 - OwnershipTransferred
 - TokensDeclaredInvalid
 
-## 🏗️ Architektur
+## 🏗️ Architecture
 
-**Optimierte Block-Ranges:**
-- 228 historische Ranges (nur Blöcke mit Events)
-- 1 Current Range (ab Block 23,639,871)
+**Optimized Block Ranges:**
+- 228 historical ranges (only blocks with events)
+- 1 current range (from block 23,639,871)
 
 **Event Handlers:**
-- 2,061 dynamisch registrierte Handler (228×9 + 9)
-- Set-basierte Block-Filterung (O(1))
-- In-Memory Balance-Berechnung
+- 2,061 dynamically registered handlers (228×9 + 9)
+- Set-based block filtering (O(1))
+- In-memory balance calculation
 
-## 📁 Projekt-Struktur
+## 📁 Project Structure
 
 ```
-├── ponder.config.ts          # Optimierte Konfiguration (228 Ranges)
-├── ponder.schema.ts           # Datenbank-Schema
+├── ponder.config.ts          # Optimized configuration (228 ranges)
+├── ponder.schema.ts           # Database schema
 ├── src/
-│   └── index.ts              # Event Handler (optimiert)
-├── blocks.ts                  # Historische Block-Liste (548 Blöcke)
-├── handler-mapping.ts         # Contract-Namen für 228 Ranges
-├── abis/                      # ABI-Definitionen
-└── scripts/                   # Optimierungs-Scripts
-    ├── analyze-blocks.ts     # Block-Analyse
-    ├── generate-config.ts    # Config-Generierung
-    └── apply-optimization.ts # Optimierung anwenden
+│   └── index.ts              # Event handlers (optimized)
+├── blocks.ts                  # Historical block list (548 blocks)
+├── handler-mapping.ts         # Contract names for 228 ranges
+├── abis/                      # ABI definitions
+└── scripts/                   # Optimization scripts
+    ├── analyze-blocks.ts     # Block analysis
+    ├── generate-config.ts    # Config generation
+    └── apply-optimization.ts # Apply optimization
 ```
 
-## 🔧 Optimierungs-Scripts
+## 🔧 Optimization Scripts
 
-Falls du die Optimierung neu generieren musst:
+If you need to regenerate the optimization:
 
 ```bash
-# 1. Block-Verteilung analysieren
+# 1. Analyze block distribution
 npx tsx scripts/analyze-blocks.ts
 
-# 2. Optimierte Config generieren
+# 2. Generate optimized config
 npx tsx scripts/generate-config.ts
 
-# 3. Optimierung anwenden (mit Backup)
+# 3. Apply optimization (with backup)
 npx tsx scripts/apply-optimization.ts
 ```
 
-## 📖 Dokumentation
+## 📖 Documentation
 
-- [OPTIMIZATION.md](./OPTIMIZATION.md) - Technische Details der Optimierung
-- [QUICKSTART-OPTIMIZATION.md](./QUICKSTART-OPTIMIZATION.md) - 3-Befehle Quick Start
+- [OPTIMIZATION.md](./OPTIMIZATION.md) - Technical optimization details
+- [QUICKSTART-OPTIMIZATION.md](./QUICKSTART-OPTIMIZATION.md) - 3-command quick start
 
 ## 🔍 GraphQL API
 
-Nach dem Start ist die API verfügbar unter:
+After starting, the API is available at:
 - **Endpoint:** http://localhost:42069
-- **Playground:** http://localhost:42069 (im Browser öffnen)
+- **Playground:** http://localhost:42069 (open in browser)
 
-Beispiel-Query:
+Example query:
 ```graphql
 {
   transfers(limit: 10, orderBy: "blockNumber", orderDirection: "desc") {
@@ -155,48 +155,48 @@ Beispiel-Query:
 
 ## 🚨 Production Deployment
 
-Für Production:
+For production:
 
-1. **Verwende PostgreSQL** statt SQLite:
+1. **Use PostgreSQL** instead of SQLite:
    ```
    DATABASE_URL=postgresql://user:pass@host:5432/ponder
    ```
 
-2. **Optimiere RPC Provider:**
-   - Verwende dedizierte Node oder Premium-Tier
-   - Aktiviere Caching falls möglich
+2. **Optimize RPC Provider:**
+   - Use dedicated node or premium tier
+   - Enable caching if possible
 
 3. **Monitoring:**
-   - Überwache RPC req/s Rate
-   - Prüfe DB-Größe regelmäßig
-   - Logs mit PONDER_LOG_LEVEL=warn
+   - Monitor RPC req/s rate
+   - Check DB size regularly
+   - Logs with PONDER_LOG_LEVEL=warn
 
 4. **Backup:**
-   - Regelmäßige DB-Backups
-   - Behalte `.ponder` Verzeichnis
+   - Regular DB backups
+   - Keep `.ponder` directory
 
 ## 📊 Performance
 
-Mit der Optimierung:
-- **Blocks zu scannen:** 929,003 (statt 9,070,406)
-- **RPC-Reduktion:** 89.76%
-- **Geschätzte Sync-Zeit:** 8-12 Stunden (abhängig vom RPC)
-- **Laufende Sync:** Real-time (neue Blöcke in <1 Sekunde)
+With optimization:
+- **Blocks to scan:** 929,003 (instead of 9,070,406)
+- **RPC reduction:** 89.76%
+- **Estimated sync time:** 8-12 hours (depending on RPC)
+- **Live sync:** Real-time (new blocks in <1 second)
 
 ## 🐛 Troubleshooting
 
-**Sync ist langsam?**
-- Prüfe RPC Rate Limits
-- Verwende schnelleren RPC Provider
-- Erhöhe PONDER_LOG_LEVEL=debug für Details
+**Sync is slow?**
+- Check RPC rate limits
+- Use faster RPC provider
+- Set PONDER_LOG_LEVEL=debug for details
 
 **"Too many event handlers"?**
-- Erhöhe Gap-Size in `scripts/analyze-blocks.ts`
-- Regeneriere Config mit weniger Ranges
+- Increase gap size in `scripts/analyze-blocks.ts`
+- Regenerate config with fewer ranges
 
-**Balances stimmen nicht?**
-- Lösche `.ponder` und starte neu
-- Prüfe ob alle Events verarbeitet wurden
+**Balances incorrect?**
+- Delete `.ponder` and restart
+- Check if all events were processed
 
 ## 📄 License
 
@@ -204,4 +204,4 @@ MIT
 
 ## 🤝 Support
 
-Bei Fragen oder Problemen öffne ein Issue im Repository.
+For questions or issues, please open an issue in the repository.
