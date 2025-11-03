@@ -80,3 +80,14 @@ export const transfer = onchainTable("transfer", (t) => ({
   to: t.text().notNull(),
   value: t.text().notNull(),
 }));
+
+
+export const account = onchainTable("account", (t) => ({
+  id: t.text().primaryKey(),
+  address: t.text().notNull(),
+  addressType: t.integer().notNull(),
+  totalSent: t.bigint().notNull(),
+  totalReceived: t.bigint().notNull(),
+  totalTransactions: t.integer().notNull(),
+  lastUpdated: t.integer().notNull(),
+}));
