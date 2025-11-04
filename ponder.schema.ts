@@ -1,4 +1,4 @@
-import { onchainTable } from "ponder";
+import { onchainTable, relations } from "ponder";
 
 export const addressTypeUpdate = onchainTable("addressTypeUpdate", (t) => ({
   id: t.text().primaryKey(),
@@ -89,5 +89,44 @@ export const account = onchainTable("account", (t) => ({
   totalSent: t.bigint().notNull(),
   totalReceived: t.bigint().notNull(),
   totalTransactions: t.integer().notNull(),
+  balance: t.bigint().notNull(),
   lastUpdated: t.integer().notNull(),
+}));
+
+export const historicalBalance = onchainTable("historicalBalance", (t) => ({
+  id: t.text().primaryKey(),
+  address: t.text().notNull(),
+  balance: t.bigint().notNull(),
+  timestamp: t.integer().notNull(),
+}));
+
+// Relations
+export const transferRelations = relations(transfer, ({ one }) => ({
+  fromAccount: one(account, { fields: [transfer.from], references: [account.address] }),
+  toAccount: one(account, { fields: [transfer.to], references: [account.address] }),
+}));
+
+export const approvalRelations = relations(approval, ({ one }) => ({
+  ownerAccount: one(account, { fields: [approval.owner], references: [account.address] }),
+}));
+
+export const tokensDeclaredInvalidRelations = relations(tokensDeclaredInvalid, ({ one }) => ({
+  holderAccount: one(account, { fields: [tokensDeclaredInvalid.holder], references: [account.address] }),
+}));
+
+export const addressTypeUpdateRelations = relations(addressTypeUpdate, ({ one }) => ({
+  account: one(account, { fields: [addressTypeUpdate.account], references: [account.address] }),
+}));
+
+export const historicalBalanceRelations = relations(historicalBalance, ({ one }) => ({
+  account: one(account, { fields: [historicalBalance.address], references: [account.address] }),
+}));
+
+export const accountRelations = relations(account, ({ many }) => ({
+  transfersSent: many(transfer),
+  transfersReceived: many(transfer),
+  approvals: many(approval),
+  tokensDeclaredInvalid: many(tokensDeclaredInvalid),
+  addressTypeUpdates: many(addressTypeUpdate),
+  historicalBalances: many(historicalBalance),
 }));

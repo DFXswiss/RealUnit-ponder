@@ -1,5 +1,6 @@
 import { ponder } from "ponder:registry";
-import { transfer, account } from "ponder:schema";
+import { transfer, account, historicalBalance } from "ponder:schema";
+import { getBalances } from "./common/getBalances";
 
 ponder.on("RealUnitShare:Transfer", async ({ event, context }) => {
   const { from, to, value } = event.args;
@@ -14,6 +15,7 @@ ponder.on("RealUnitShare:Transfer", async ({ event, context }) => {
     value: value.toString(),
   });
 
+  const [fromBalance, toBalance] = await getBalances([from, to], context.contracts.RealUnitShare, context.client);
 
   await context.db.insert(account).values({
     id: from.toLowerCase(),
@@ -22,10 +24,12 @@ ponder.on("RealUnitShare:Transfer", async ({ event, context }) => {
     totalSent: value,
     totalReceived: value,
     totalTransactions: 1,
+    balance: fromBalance,
     lastUpdated: Number(event.block.timestamp),
   }).onConflictDoUpdate((row)=>({
     totalTransactions: row.totalTransactions + 1,
     totalSent: row.totalSent + value,
+    balance: fromBalance,
     lastUpdated: Number(event.block.timestamp),
   }));
 
@@ -36,11 +40,33 @@ ponder.on("RealUnitShare:Transfer", async ({ event, context }) => {
     totalSent: value,
     totalReceived: value,
     totalTransactions: 1,
+    balance: toBalance,
     lastUpdated: Number(event.block.timestamp),
   }).onConflictDoUpdate((row)=>({
     totalTransactions: row.totalTransactions + 1,
     totalReceived: row.totalReceived + value,
+    balance: toBalance,
     lastUpdated: Number(event.block.timestamp),
+  }));
+
+  await context.db.insert(historicalBalance).values({
+    id: `${event.block.number}-${event.log.logIndex}-${from.toLowerCase()}`,
+    address: from.toLowerCase(),
+    balance: fromBalance,
+    timestamp: Number(event.block.timestamp),
+  }).onConflictDoUpdate((row)=>({
+    balance: fromBalance,
+    timestamp: Number(event.block.timestamp),
+  }));
+
+  await context.db.insert(historicalBalance).values({
+    id: `${event.block.number}-${event.log.logIndex}-${to.toLowerCase()}`,
+    address: to.toLowerCase(),
+    balance: toBalance,
+    timestamp: Number(event.block.timestamp),
+  }).onConflictDoUpdate((row)=>({
+    balance: toBalance,
+    timestamp: Number(event.block.timestamp),
   }));
 });
 

@@ -20,6 +20,7 @@ ponder.on("RealUnitShare:AddressTypeUpdate", async ({ event, context }) => {
     totalSent: 0n,
     totalReceived: 0n,
     totalTransactions: 0,
+    balance: 0n,
     lastUpdated: Number(event.block.timestamp),
   }).onConflictDoUpdate({
     addressType: Number(addressType),

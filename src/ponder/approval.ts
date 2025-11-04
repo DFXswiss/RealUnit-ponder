@@ -21,9 +21,10 @@ ponder.on("RealUnitShare:Approval", async ({ event, context }) => {
     totalSent: 0n,
     totalReceived: 0n,
     totalTransactions: 0,
+    balance: 0n,
     lastUpdated: Number(event.block.timestamp),
   }).onConflictDoUpdate((row)=>({
     totalTransactions: row.totalTransactions + 1,
-    lastUpdated: Number(event.block.timestamp),
+    lastUpdated: Number(event.block.timestamp)
   }));
 });

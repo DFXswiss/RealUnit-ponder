@@ -13,4 +13,3 @@ ponder.on("RealUnitShare:NameChanged", async ({ event, context }) => {
     symbol,
   });
 });
-
