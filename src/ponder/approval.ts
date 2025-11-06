@@ -1,11 +1,12 @@
 import { ponder } from "ponder:registry";
-import { account, approval } from "ponder:schema";
+import { account, approval, accountHistory } from "ponder:schema";
 
 ponder.on("RealUnitShare:Approval", async ({ event, context }) => {
   const { owner, spender, value } = event.args;
+  const approvalId = `${event.block.number}-${event.log.logIndex}`;
 
   await context.db.insert(approval).values({
-    id: `${event.block.number}-${event.log.logIndex}`,
+    id: approvalId,
     blockNumber: Number(event.block.number),
     timestamp: Number(event.block.timestamp),
     txHash: event.transaction.hash,
@@ -27,4 +28,15 @@ ponder.on("RealUnitShare:Approval", async ({ event, context }) => {
     totalTransactions: row.totalTransactions + 1,
     lastUpdated: Number(event.block.timestamp)
   }));
+
+  // Insert accountHistory entry for the owner
+  await context.db.insert(accountHistory).values({
+    id: `history-${approvalId}`,
+    account: owner.toLowerCase(),
+    blockNumber: Number(event.block.number),
+    timestamp: Number(event.block.timestamp),
+    txHash: event.transaction.hash,
+    eventType: 'approval',
+    approvalId: approvalId,
+  });
 });

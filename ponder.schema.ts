@@ -100,6 +100,27 @@ export const historicalBalance = onchainTable("historicalBalance", (t) => ({
   timestamp: t.integer().notNull(),
 }));
 
+export const totalSupply = onchainTable("totalSupply", (t) => ({
+  id: t.text().primaryKey(),
+  value: t.bigint().notNull(),
+  timestamp: t.integer().notNull(),
+}));
+
+export const accountHistory = onchainTable("accountHistory", (t) => ({
+  id: t.text().primaryKey(),
+  account: t.text().notNull(),
+  blockNumber: t.integer().notNull(),
+  timestamp: t.integer().notNull(),
+  txHash: t.text().notNull(),
+  eventType: t.text().notNull(), // 'transfer', 'approval', 'tokensDeclaredInvalid', 'addressTypeUpdate'
+  
+  // Foreign keys to source tables (only one will be set per row)
+  transferId: t.text(),
+  approvalId: t.text(),
+  tokensDeclaredInvalidId: t.text(),
+  addressTypeUpdateId: t.text(),
+}));
+
 // Relations
 export const transferRelations = relations(transfer, ({ one }) => ({
   fromAccount: one(account, { fields: [transfer.from], references: [account.address] }),
@@ -122,6 +143,29 @@ export const historicalBalanceRelations = relations(historicalBalance, ({ one })
   account: one(account, { fields: [historicalBalance.address], references: [account.address] }),
 }));
 
+export const accountHistoryRelations = relations(accountHistory, ({ one }) => ({
+  accountRef: one(account, { 
+    fields: [accountHistory.account], 
+    references: [account.address] 
+  }),
+  transfer: one(transfer, { 
+    fields: [accountHistory.transferId], 
+    references: [transfer.id] 
+  }),
+  approval: one(approval, { 
+    fields: [accountHistory.approvalId], 
+    references: [approval.id] 
+  }),
+  tokensDeclaredInvalid: one(tokensDeclaredInvalid, { 
+    fields: [accountHistory.tokensDeclaredInvalidId], 
+    references: [tokensDeclaredInvalid.id] 
+  }),
+  addressTypeUpdate: one(addressTypeUpdate, { 
+    fields: [accountHistory.addressTypeUpdateId], 
+    references: [addressTypeUpdate.id] 
+  }),
+}));
+
 export const accountRelations = relations(account, ({ many }) => ({
   transfersSent: many(transfer),
   transfersReceived: many(transfer),
@@ -129,4 +173,5 @@ export const accountRelations = relations(account, ({ many }) => ({
   tokensDeclaredInvalid: many(tokensDeclaredInvalid),
   addressTypeUpdates: many(addressTypeUpdate),
   historicalBalances: many(historicalBalance),
+  history: many(accountHistory),
 }));

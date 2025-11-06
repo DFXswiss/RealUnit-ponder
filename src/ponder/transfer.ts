@@ -1,12 +1,13 @@
 import { ponder } from "ponder:registry";
-import { transfer, account, historicalBalance } from "ponder:schema";
+import { transfer, account, historicalBalance, totalSupply, accountHistory } from "ponder:schema";
 import { getBalances } from "./common/getBalances";
 
 ponder.on("RealUnitShare:Transfer", async ({ event, context }) => {
   const { from, to, value } = event.args;
+  const transferId = `${event.block.number}-${event.log.logIndex}`;
 
   await context.db.insert(transfer).values({
-    id: `${event.block.number}-${event.log.logIndex}`,
+    id: transferId,
     blockNumber: Number(event.block.number),
     timestamp: Number(event.block.timestamp),
     txHash: event.transaction.hash,
@@ -66,6 +67,43 @@ ponder.on("RealUnitShare:Transfer", async ({ event, context }) => {
     timestamp: Number(event.block.timestamp),
   }).onConflictDoUpdate((row)=>({
     balance: toBalance,
+    timestamp: Number(event.block.timestamp),
+  }));
+
+  // Insert accountHistory entries for both from and to accounts
+  await context.db.insert(accountHistory).values({
+    id: `history-${transferId}-from`,
+    account: from.toLowerCase(),
+    blockNumber: Number(event.block.number),
+    timestamp: Number(event.block.timestamp),
+    txHash: event.transaction.hash,
+    eventType: 'transfer',
+    transferId: transferId,
+  });
+
+  await context.db.insert(accountHistory).values({
+    id: `history-${transferId}-to`,
+    account: to.toLowerCase(),
+    blockNumber: Number(event.block.number),
+    timestamp: Number(event.block.timestamp),
+    txHash: event.transaction.hash,
+    eventType: 'transfer',
+    transferId: transferId,
+  });
+
+  const totalSupplyValue = await context.client.readContract({
+    address: context.contracts.RealUnitShare.address,
+    abi: context.contracts.RealUnitShare.abi,
+    functionName: "totalSupply",
+    args: [],
+  });
+
+  await context.db.insert(totalSupply).values({
+    id: `${event.block.number}-${event.log.logIndex}`,
+    value: BigInt(totalSupplyValue),
+    timestamp: Number(event.block.timestamp),
+  }).onConflictDoUpdate((row)=>({
+    value: BigInt(totalSupplyValue),
     timestamp: Number(event.block.timestamp),
   }));
 });

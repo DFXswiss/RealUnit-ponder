@@ -1,11 +1,12 @@
 import { ponder } from "ponder:registry";
-import { addressTypeUpdate, account } from "ponder:schema";
+import { addressTypeUpdate, account, accountHistory } from "ponder:schema";
 
 ponder.on("RealUnitShare:AddressTypeUpdate", async ({ event, context }) => {
   const { account: accountAddress, addressType } = event.args;
+  const addressTypeUpdateId = `${event.block.number}-${event.log.logIndex}`;
 
   await context.db.insert(addressTypeUpdate).values({
-    id: `${event.block.number}-${event.log.logIndex}`,
+    id: addressTypeUpdateId,
     blockNumber: Number(event.block.number),
     timestamp: Number(event.block.timestamp),
     txHash: event.transaction.hash,
@@ -25,6 +26,17 @@ ponder.on("RealUnitShare:AddressTypeUpdate", async ({ event, context }) => {
   }).onConflictDoUpdate({
     addressType: Number(addressType),
     lastUpdated: Number(event.block.timestamp),
+  });
+
+  // Insert accountHistory entry for the account
+  await context.db.insert(accountHistory).values({
+    id: `history-${addressTypeUpdateId}`,
+    account: accountAddress.toLowerCase(),
+    blockNumber: Number(event.block.number),
+    timestamp: Number(event.block.timestamp),
+    txHash: event.transaction.hash,
+    eventType: 'addressTypeUpdate',
+    addressTypeUpdateId: addressTypeUpdateId,
   });
 });
 
