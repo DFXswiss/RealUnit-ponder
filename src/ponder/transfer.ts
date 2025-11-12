@@ -1,6 +1,7 @@
 import { ponder } from "ponder:registry";
 import { transfer, account, historicalBalance, totalSupply, accountHistory } from "ponder:schema";
 import { getBalances } from "./common/getBalances";
+import { getDailyTimestampedId } from "./common/idUtilis";
 
 ponder.on("RealUnitShare:Transfer", async ({ event, context }) => {
   const { from, to, value } = event.args;
@@ -51,7 +52,7 @@ ponder.on("RealUnitShare:Transfer", async ({ event, context }) => {
   }));
 
   await context.db.insert(historicalBalance).values({
-    id: `${event.block.number}-${event.log.logIndex}-${from.toLowerCase()}`,
+    id: getDailyTimestampedId(Number(event.block.timestamp), from.toLowerCase()),
     address: from.toLowerCase(),
     balance: fromBalance,
     timestamp: Number(event.block.timestamp),
@@ -61,7 +62,7 @@ ponder.on("RealUnitShare:Transfer", async ({ event, context }) => {
   }));
 
   await context.db.insert(historicalBalance).values({
-    id: `${event.block.number}-${event.log.logIndex}-${to.toLowerCase()}`,
+    id: getDailyTimestampedId(Number(event.block.timestamp), to.toLowerCase()),
     address: to.toLowerCase(),
     balance: toBalance,
     timestamp: Number(event.block.timestamp),
