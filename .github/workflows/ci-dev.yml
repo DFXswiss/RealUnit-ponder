@@ -102,6 +102,7 @@ jobs:
               --image ${{ env.DOCKER_TAGS }} \
               --min-replicas 1 \
               --max-replicas 1 \
+              --revision-suffix $(date +%s) \
               --set-env-vars DEPLOY_INFO=${{ env.DEPLOY_INFO }}
 
             if [ -n "$CURRENT_REVISION" ]; then
