@@ -9,7 +9,7 @@ on:
 
 env:
   NODE_VERSION: '20'
-  DOCKER_TAGS: dfxswiss/realunitshares-ponder:beta
+  DOCKER_IMAGE: dfxswiss/realunitshares-ponder
   DEPLOY_INFO: ${{ github.ref_name }}-${{ github.sha }}
   AZURE_RESOURCE_GROUP: rg-dfx-api-dev
   AZURE_CONTAINER_APP: ca-dfx-rup-dev
@@ -68,9 +68,13 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ env.DOCKER_TAGS }}
+          tags: |
+            ${{ env.DOCKER_IMAGE }}:${{ steps.sha.outputs.short }}
+            ${{ env.DOCKER_IMAGE }}:beta
           build-args: |
             COMMIT_HASH=${{ steps.sha.outputs.short }}
+    outputs:
+      image-tag: ${{ steps.sha.outputs.short }}
 
   deploy:
     name: Deploy to DEV
@@ -85,34 +89,14 @@ jobs:
           creds: ${{ secrets.DFX_DEV_CREDENTIALS }}
 
       - name: Update Azure Container App
-        uses: azure/CLI@v2
-        with:
-          inlineScript: |
-            CURRENT_REVISION=$(az containerapp revision list \
-              --resource-group ${{ env.AZURE_RESOURCE_GROUP }} \
-              --name ${{ env.AZURE_CONTAINER_APP }} \
-              --query "[?properties.active].name" \
-              --output tsv | head -1)
-
-            echo "Current active revision: $CURRENT_REVISION"
-
-            az containerapp update \
-              --resource-group ${{ env.AZURE_RESOURCE_GROUP }} \
-              --name ${{ env.AZURE_CONTAINER_APP }} \
-              --image ${{ env.DOCKER_TAGS }} \
-              --min-replicas 1 \
-              --max-replicas 1 \
-              --set-env-vars DEPLOY_INFO=${{ env.DEPLOY_INFO }}
-
-            if [ -n "$CURRENT_REVISION" ]; then
-              echo "Deactivating previous revision: $CURRENT_REVISION"
-              az containerapp revision deactivate \
-                --resource-group ${{ env.AZURE_RESOURCE_GROUP }} \
-                --name ${{ env.AZURE_CONTAINER_APP }} \
-                --revision $CURRENT_REVISION
-            else
-              echo "No previous revision to deactivate"
-            fi
+        run: |
+          az containerapp update \
+            --resource-group ${{ env.AZURE_RESOURCE_GROUP }} \
+            --name ${{ env.AZURE_CONTAINER_APP }} \
+            --image ${{ env.DOCKER_IMAGE }}:${{ needs.build-and-push.outputs.image-tag }} \
+            --min-replicas 1 \
+            --max-replicas 1 \
+            --set-env-vars DEPLOY_INFO=${{ env.DEPLOY_INFO }}
 
       - name: Logout from Azure
         run: |
