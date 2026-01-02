@@ -96,6 +96,47 @@ jobs:
             --max-replicas 1 \
             --set-env-vars DEPLOY_INFO=${{ env.DEPLOY_INFO }}
 
+      - name: Verify deployment health
+        run: |
+          echo "Waiting for new revision to be healthy..."
+          for i in {1..30}; do
+            REVISION=$(az containerapp revision list \
+              --resource-group ${{ env.AZURE_RESOURCE_GROUP }} \
+              --name ${{ env.AZURE_CONTAINER_APP }} \
+              --query "[?properties.active].name" \
+              --output tsv | head -1)
+
+            if [ -z "$REVISION" ]; then
+              echo "Attempt $i/30: No active revision found"
+              sleep 10
+              continue
+            fi
+
+            RUNNING_STATE=$(az containerapp revision show \
+              --resource-group ${{ env.AZURE_RESOURCE_GROUP }} \
+              --name ${{ env.AZURE_CONTAINER_APP }} \
+              --revision "$REVISION" \
+              --query "properties.runningState" \
+              --output tsv)
+
+            echo "Attempt $i/30: Revision=$REVISION, State=$RUNNING_STATE"
+
+            if [ "$RUNNING_STATE" = "Running" ]; then
+              echo "Deployment successful! Revision $REVISION is running."
+              exit 0
+            fi
+
+            if [ "$RUNNING_STATE" = "Failed" ]; then
+              echo "::error::Deployment failed! Revision $REVISION has state: Failed"
+              exit 1
+            fi
+
+            sleep 10
+          done
+
+          echo "::error::Timeout waiting for revision to become healthy"
+          exit 1
+
       - name: Logout from Azure
         run: |
           az logout
