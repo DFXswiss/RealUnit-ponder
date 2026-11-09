@@ -7,6 +7,13 @@ on:
     branches: [develop]
   workflow_dispatch:
 
+# Serialize runs per branch so an older commit can never overwrite the
+# fixed image tag after a newer one. Pull request runs do not push an
+# image, so a superseded PR run can be cancelled.
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
 env:
   NODE_VERSION: '24.22.1'
   DOCKER_TAGS: dfxswiss/realunitshares-ponder:beta
