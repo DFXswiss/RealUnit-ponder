@@ -5,8 +5,10 @@ on:
     branches: [main]
   workflow_dispatch:
 
-# Serialize runs per branch so an older commit can never overwrite the
-# fixed image tag after a newer one.
+# Serialize runs per branch: a running publish finishes before the next
+# one starts, and a newer queued run replaces an older pending one. This
+# keeps two pushes from building in parallel and publishing the fixed
+# image tag out of order.
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: false
