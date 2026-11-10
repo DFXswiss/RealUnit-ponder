@@ -7,9 +7,11 @@ on:
     branches: [develop]
   workflow_dispatch:
 
-# Serialize runs per branch so an older commit can never overwrite the
-# fixed image tag after a newer one. Pull request runs do not push an
-# image, so a superseded PR run can be cancelled.
+# Serialize runs per branch: a running publish finishes before the next
+# one starts, and a newer queued run replaces an older pending one, so an
+# older commit does not overwrite the fixed image tag after a newer one.
+# Pull request runs do not push an image, so a superseded PR run can be
+# cancelled.
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: ${{ github.event_name == 'pull_request' }}
