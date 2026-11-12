@@ -1,4 +1,4 @@
-FROM node:20-alpine
+FROM node:24.22.1-alpine
 
 ARG COMMIT_HASH=public
 ENV COMMIT_HASH=${COMMIT_HASH}
